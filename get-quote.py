@@ -6,7 +6,8 @@ def POWER():
   f.close()
   last = 13
   rnd = random.randint(0,last)
-  print(quotes[rnd])
+  for idx in range(0,rnd):
+    print(quotes[idx],end="")
 
 if __name__== "__main__":
   POWER()
